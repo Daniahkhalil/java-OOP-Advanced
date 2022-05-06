@@ -1,0 +1,34 @@
+package com.CareSoft.Interfaces;
+
+public class User {
+	 	protected Integer id;
+	    protected int pin;
+	    
+		public User() {
+			super();
+		}
+
+		public User(Integer id) {
+			super();
+			this.id = id;
+		}
+	    
+		public Integer getId() {
+			return id;
+		}
+
+		public void setId(Integer id) {
+			this.id = id;
+		}
+
+		public int getPin() {
+			return pin;
+		}
+
+		public void setPin(int pin) {
+			this.pin = pin;
+		}
+
+	
+
+}
